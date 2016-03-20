@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: npm start
+  environment:
+    - LOGIN=${ALLEGRO_LOGIN}
+    - PASS=${ALLEGRO_PASS}
+    - KEY=${ALLEGRO_API_KEY}

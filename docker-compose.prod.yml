@@ -1,0 +1,7 @@
+web:
+  environment:
+    - PORT=80
+  volumes:
+    - ./rowID.txt:/srv/rowID.txt
+  ports:
+    - "80:3000"

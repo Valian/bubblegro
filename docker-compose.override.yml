@@ -1,0 +1,7 @@
+web:
+  environment:
+    - PORT=3000
+  volumes:
+    - .:/srv
+  ports:
+    - "3000:3000"
