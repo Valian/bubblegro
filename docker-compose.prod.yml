@@ -1,6 +1,6 @@
 web:
   environment:
-    - PORT=3000
+    - PORT=80
   volumes:
     - ./rowID.txt:/srv/rowID.txt
   ports:
